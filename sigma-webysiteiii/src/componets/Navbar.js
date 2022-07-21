@@ -1,6 +1,6 @@
 import React from "react";
-import '/workspace/Hope-Center/hopecenter/src/App.css';
-import '/workspace/Hope-Center/hopecenter/src/components/Navbar.css'
+import '../App.css';
+import './Navbar.css';
 function Navbar () {
     return (
 <html>
@@ -20,4 +20,4 @@ function Navbar () {
 </html>
     )
 }
-export default Navbar
+export default Navbar;

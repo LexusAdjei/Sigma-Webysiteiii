@@ -1,9 +1,9 @@
-import searchbar from './components/searchbar';
+import Navbar from './componets/Navbar';
 import './App.css';
-import './components/searchbar';
-import Sidebar from './components/Sidebar';
+import './componets/Searchbar';
+import Sidebar from './componets/Sidebar';
 import './App.css';
-import PrimarySearchAppBar from './componets/searchbar';
+import PrimarySearchAppBar from './componets/Searchbar';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <img src="https://s3-alpha-sig.figma.com/img/eeb7/3010/4e98a33b701b408fabe6ca8e131f22a8?Expires=1659312000&Signature=dn1lLtA7kyR~0UiDsjiwxxwn8v1LzSgIs93N-FNNRrNSPE1BlM7cgIvjp4XfSND9eJsxdXppTBnCPoN0UFJWYpHQBtDR4WwJQqImkJ3HTsKudWPr5jdHZiNRLht-Q6GylBHcud9pZmseXKknCYkE4EHwh5~fpVSPiXSlLnxnGjrCLESSZ0rrdwDwSH8auLdNJlFZSq3yEKFKqla2FjioaSTt6EBFAiyN5KoVPM1anlHJZSgf~uvAhCnz1tafTN~6WVIo~wGmRA1dTqXjX6lKPzSKdAvHE0Gl3kSqdCShC76SP8EW1PJB3pITrpGpcCGU5TdsB3KEyVCg9eAu8j8G2g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" id="backarrow" />
       <h1>Welcome</h1>
       <h1>Doners</h1>
-        <Navbar />
+        <Navbar/>
         <Sidebar/>
         <PrimarySearchAppBar/>
         <footer id="footer" > Copyright 2022
